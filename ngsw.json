@@ -1,19 +1,19 @@
 {
   "configVersion": 1,
-  "index": "C:/Program Files/Git/devlogger/index.html",
+  "index": "https://petermacko90.github.io/devlogger/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "C:/Program Files/Git/devlogger/favicon.ico",
-        "C:/Program Files/Git/devlogger/index.html",
-        "C:/Program Files/Git/devlogger/inline.318b50c57b4eba3d437b.bundle.js",
-        "C:/Program Files/Git/devlogger/main.2ee74ee12c6253fe1c9f.bundle.js",
-        "C:/Program Files/Git/devlogger/polyfills.194f3db5c95bb635c66b.bundle.js",
-        "C:/Program Files/Git/devlogger/scripts.5b371478d43e52e5562f.bundle.js",
-        "C:/Program Files/Git/devlogger/styles.2b9ac9a282a7a227b370.bundle.css"
+        "https://petermacko90.github.io/devlogger/favicon.ico",
+        "https://petermacko90.github.io/devlogger/index.html",
+        "https://petermacko90.github.io/devlogger/inline.318b50c57b4eba3d437b.bundle.js",
+        "https://petermacko90.github.io/devlogger/main.2ee74ee12c6253fe1c9f.bundle.js",
+        "https://petermacko90.github.io/devlogger/polyfills.194f3db5c95bb635c66b.bundle.js",
+        "https://petermacko90.github.io/devlogger/scripts.5b371478d43e52e5562f.bundle.js",
+        "https://petermacko90.github.io/devlogger/styles.2b9ac9a282a7a227b370.bundle.css"
       ],
       "patterns": []
     },
@@ -22,25 +22,25 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
-        "C:/Program Files/Git/devlogger/assets/icon-128.png",
-        "C:/Program Files/Git/devlogger/assets/icon-256.png",
-        "C:/Program Files/Git/devlogger/assets/icon-512.png"
+        "https://petermacko90.github.io/devlogger/assets/icon-128.png",
+        "https://petermacko90.github.io/devlogger/assets/icon-256.png",
+        "https://petermacko90.github.io/devlogger/assets/icon-512.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "C:/Program Files/Git/devlogger/inline.318b50c57b4eba3d437b.bundle.js": "998c6060446975e566fd17509558ddc68d72eec3",
-    "C:/Program Files/Git/devlogger/assets/icon-128.png": "eb93b8366f848b608854b12cce3bea5786334a84",
-    "C:/Program Files/Git/devlogger/main.2ee74ee12c6253fe1c9f.bundle.js": "135b0384f261737fcf84d73db58a90e5e800a6e1",
-    "C:/Program Files/Git/devlogger/assets/icon-256.png": "b0a4af53e14d951a55760fa6772b31abbb82771b",
-    "C:/Program Files/Git/devlogger/polyfills.194f3db5c95bb635c66b.bundle.js": "1efb43b628f58146c7d7c98e11c9b496244802da",
-    "C:/Program Files/Git/devlogger/assets/icon-512.png": "8569d4b9f72e02c6a29eed7faee2bed087271cae",
-    "C:/Program Files/Git/devlogger/scripts.5b371478d43e52e5562f.bundle.js": "03b75d56bb4e8d828d7ac2b12911fdf3277390d1",
-    "C:/Program Files/Git/devlogger/styles.2b9ac9a282a7a227b370.bundle.css": "cfe097f386aa8e60d0ac6ba92b75206f1f31f527",
-    "C:/Program Files/Git/devlogger/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "C:/Program Files/Git/devlogger/index.html": "e2622f66e3e8677b54e18f80ec6643c4c6539662"
+    "https://petermacko90.github.io/devlogger/inline.318b50c57b4eba3d437b.bundle.js": "998c6060446975e566fd17509558ddc68d72eec3",
+    "https://petermacko90.github.io/devlogger/assets/icon-128.png": "eb93b8366f848b608854b12cce3bea5786334a84",
+    "https://petermacko90.github.io/devlogger/main.2ee74ee12c6253fe1c9f.bundle.js": "135b0384f261737fcf84d73db58a90e5e800a6e1",
+    "https://petermacko90.github.io/devlogger/assets/icon-256.png": "b0a4af53e14d951a55760fa6772b31abbb82771b",
+    "https://petermacko90.github.io/devlogger/polyfills.194f3db5c95bb635c66b.bundle.js": "1efb43b628f58146c7d7c98e11c9b496244802da",
+    "https://petermacko90.github.io/devlogger/assets/icon-512.png": "8569d4b9f72e02c6a29eed7faee2bed087271cae",
+    "https://petermacko90.github.io/devlogger/scripts.5b371478d43e52e5562f.bundle.js": "03b75d56bb4e8d828d7ac2b12911fdf3277390d1",
+    "https://petermacko90.github.io/devlogger/styles.2b9ac9a282a7a227b370.bundle.css": "cfe097f386aa8e60d0ac6ba92b75206f1f31f527",
+    "https://petermacko90.github.io/devlogger/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "https://petermacko90.github.io/devlogger/index.html": "59484ba2f3078600d488b1691101f88c4926cc99"
   },
   "navigationUrls": [
     {
