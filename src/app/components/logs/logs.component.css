@@ -1,3 +1,7 @@
-.log-date {
-	color: #777;
+a {
+  color: #0053B3;
+}
+
+.fa-remove:hover {
+  cursor: pointer;
 }
