@@ -1,5 +1,6 @@
 {
   "configVersion": 1,
+  "timestamp": 1556659940791,
   "index": "https://petermacko90.github.io/devlogger/index.html",
   "assetGroups": [
     {
@@ -8,12 +9,7 @@
       "updateMode": "prefetch",
       "urls": [
         "https://petermacko90.github.io/devlogger/favicon.ico",
-        "https://petermacko90.github.io/devlogger/index.html",
-        "https://petermacko90.github.io/devlogger/inline.318b50c57b4eba3d437b.bundle.js",
-        "https://petermacko90.github.io/devlogger/main.ea66d7d63a83bfa9979e.bundle.js",
-        "https://petermacko90.github.io/devlogger/polyfills.194f3db5c95bb635c66b.bundle.js",
-        "https://petermacko90.github.io/devlogger/scripts.5b371478d43e52e5562f.bundle.js",
-        "https://petermacko90.github.io/devlogger/styles.2b9ac9a282a7a227b370.bundle.css"
+        "https://petermacko90.github.io/devlogger/index.html"
       ],
       "patterns": []
     },
@@ -31,16 +27,11 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "https://petermacko90.github.io/devlogger/inline.318b50c57b4eba3d437b.bundle.js": "998c6060446975e566fd17509558ddc68d72eec3",
     "https://petermacko90.github.io/devlogger/assets/icon-128.png": "eb93b8366f848b608854b12cce3bea5786334a84",
-    "https://petermacko90.github.io/devlogger/main.ea66d7d63a83bfa9979e.bundle.js": "c1c5137b18538b68436834841bcc382acaabd0e1",
     "https://petermacko90.github.io/devlogger/assets/icon-256.png": "b0a4af53e14d951a55760fa6772b31abbb82771b",
-    "https://petermacko90.github.io/devlogger/polyfills.194f3db5c95bb635c66b.bundle.js": "1efb43b628f58146c7d7c98e11c9b496244802da",
     "https://petermacko90.github.io/devlogger/assets/icon-512.png": "8569d4b9f72e02c6a29eed7faee2bed087271cae",
-    "https://petermacko90.github.io/devlogger/scripts.5b371478d43e52e5562f.bundle.js": "03b75d56bb4e8d828d7ac2b12911fdf3277390d1",
-    "https://petermacko90.github.io/devlogger/styles.2b9ac9a282a7a227b370.bundle.css": "cfe097f386aa8e60d0ac6ba92b75206f1f31f527",
     "https://petermacko90.github.io/devlogger/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "https://petermacko90.github.io/devlogger/index.html": "e09d3cb08d723f5c30dc6f8f22d4aa63fefd542d"
+    "https://petermacko90.github.io/devlogger/index.html": "c14eb4d414c81447860bb5ca5eb21829f2ad0710"
   },
   "navigationUrls": [
     {
@@ -49,15 +40,15 @@
     },
     {
       "positive": false,
-      "regex": "^\\/(?:.+\\/)?[^\\/]*\\.[^\\/]*$"
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
     },
     {
       "positive": false,
-      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*$"
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
     },
     {
       "positive": false,
-      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*\\/.*$"
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
     }
   ]
 }
