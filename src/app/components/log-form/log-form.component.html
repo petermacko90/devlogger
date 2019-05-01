@@ -12,7 +12,7 @@
     </div>
     <input
       type="submit"
-      value="Add Log"
+      [value]="isNew ? 'Add Log' : 'Update Log'"
       class="btn btn-dark"
       [disabled]="!this.text"
     />
