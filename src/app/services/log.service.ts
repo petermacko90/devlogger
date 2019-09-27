@@ -4,7 +4,7 @@ import { BehaviorSubject } from 'rxjs/BehaviorSubject';
 import { Observable } from 'rxjs/Observable';
 import { of } from 'rxjs/observable/of';
 
-import { Log } from '../models/Log'
+import { Log } from '../models/Log';
 
 @Injectable()
 export class LogService {
@@ -32,11 +32,13 @@ export class LogService {
         }
         return value;
       });
+
+      this.logs.sort((a, b) => {
+        return b.date.getTime() - a.date.getTime();
+      });
     }
 
-    return of(this.logs.sort((a, b) => {
-      return b.date.getTime() - a.date.getTime();
-    }));
+    return of(this.logs);
   }
 
   setFormLog(log: Log) {

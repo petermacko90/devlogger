@@ -12,7 +12,7 @@ import { Log } from '../../models/Log';
 export class LogsComponent implements OnInit {
   logs: Log[];
   selectedLog: Log;
-  loaded: boolean = false;
+  loaded = false;
 
   constructor(private logService: LogService) { }
 
@@ -35,7 +35,7 @@ export class LogsComponent implements OnInit {
   }
 
   onDelete(log: Log) {
-    if(confirm('Are you sure?')) {
+    if (confirm('Are you sure?')) {
       this.logService.deleteLog(log);
     }
   }
