@@ -5,9 +5,10 @@ import { LogService } from '../../services/log.service';
 import { Log } from '../../models/Log';
 
 @Component({
-  selector: 'app-logs',
-  templateUrl: './logs.component.html',
-  styleUrls: ['./logs.component.css']
+    selector: 'app-logs',
+    templateUrl: './logs.component.html',
+    styleUrls: ['./logs.component.css'],
+    standalone: false
 })
 export class LogsComponent implements OnInit {
   logs: Log[];
