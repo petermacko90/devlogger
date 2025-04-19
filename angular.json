@@ -135,7 +135,6 @@
       }
     }
   },
-  "defaultProject": "devlogger",
   "schematics": {
     "@schematics/angular:component": {
       "prefix": "app",
