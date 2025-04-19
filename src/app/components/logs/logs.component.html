@@ -1,9 +1,13 @@
 <ul class="list-group" *ngIf="loaded && logs?.length > 0">
-  <li *ngFor="let log of logs" [class.list-group-item-secondary]="selectedLog === log" class="list-group-item d-flex justify-content-between align-items-center">
-    <a (click)="onSelect(log)" href="#" title="Edit log" class="font-weight-bold">
+  <li
+    *ngFor="let log of logs"
+    [class.list-group-item-secondary]="selectedLog === log"
+    class="list-group-item d-flex justify-content-between align-items-center"
+  >
+    <a (click)="onSelect(log)" href="#" title="Edit log" class="fw-bold">
       {{ log.text }}
     </a>
-    <span class="log-date">{{ log.date | date: 'short' }}</span>
+    <span>{{ log.date | date : "short" }}</span>
     <i (click)="onDelete(log)" class="fa fa-remove" title="Delete log"></i>
   </li>
 </ul>
